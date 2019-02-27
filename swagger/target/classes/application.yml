@@ -1,0 +1,22 @@
+server:
+  port: 8099
+swagger:
+  enable: true
+  api-info:
+      description: Swagger By SpringBoot
+      license: 319team-plus
+      license-url: http://www.319team.com
+      terms-of-service-url: http://www.319team.com
+      title: SpringBoot swagger demo
+      version: 1.0
+      contact:
+        email: zhongxia0807@163.com
+        name: zhongxia0807
+        url: http://www.319team.com
+  docket:
+    base-package: com.zgs.web
+    group-name: zhongxia
+spring:
+  mvc:
+    favicon:
+      enabled: true
